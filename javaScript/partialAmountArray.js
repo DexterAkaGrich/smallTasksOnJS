@@ -22,39 +22,3 @@ function getSums (arr){
   result.push(totalSum) //without this line the last element of the work reduce will not be displayed
   return result
 }
-
-
-
-////////
-var vasya = {
-  age: 21,
-  name: 'Вася',
-  surname: 'Петров'
-};
-
-var user = {
-  isAdmin: false,
-  isEmailConfirmed: true
-};
-
-var student = {
-  university: 'My university'
-};
-
-copy(vasya, student, user)
-console.log(vasya)
-
-
-function copy (){
-  var dst = arguments[0]
-  if(!arguments.length) return dst
-
-  for(var i = 1; i < arguments.length; i++){
-    var arg = arguments[i]
-    for(var key in arg){
-      dst[key] = arg[key]
-    }
-  }
-
-  return dst
-}
