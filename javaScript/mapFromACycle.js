@@ -16,5 +16,5 @@ var arrLength = arr.map(function (arr){
   return arr.length
 })
 
-alert( arrLength )
+//alert( arrLength )
 //Similar code looks much simpler and clearer for the reader

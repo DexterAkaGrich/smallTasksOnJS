@@ -6,7 +6,7 @@ var menu = {
 };
 
 multiplyNumeric(menu, 5)
-alert( "menu width=" + menu.width + " height=" + menu.height + " title=" + menu.title );
+//alert( "menu width=" + menu.width + " height=" + menu.height + " title=" + menu.title );
 
 
 function multiplyNumeric(obj, num){   //Function Declaration visible from anywhere in the code
