@@ -5,7 +5,7 @@ function sum (){
   for(var i = 0; i < arguments.length; i++){
     totalSum += arguments[i]
   }
-  alert(totalSum)
+  console.log(totalSum)
   return totalSum
 }
 
