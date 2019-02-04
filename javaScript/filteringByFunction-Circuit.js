@@ -31,9 +31,9 @@ function inBetween (from, to){
 
 function inArray(arr){
   return function (number){
-    for(var i = 0; i < arr.length; i++){
-      if(arr[i] == number)
-        return number
+    // for(var i = 0; i < arr.length; i++){
+    //   if(arr[i] == number)
+    //     return number
+    return arr.indexOf(number) != -1 //will work faster
     }
   }
-}
